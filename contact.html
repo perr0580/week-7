@@ -14,6 +14,7 @@
 
     <h2 id="contact-form-heading">Contact Me</h2>
 
+    <!-- POST is the best method as it doesn't place submitted form values directly into the URL which GET does. This is important as the contact form collects personal information (names, email addresses, and messages.) -->
     <form method="post">
 
         <!-- NAME -->
@@ -97,12 +98,72 @@
         <!-- SUBMIT BUTTON -->
         <button type="submit">Send Message</button>
 
-
-
-
-        
     </form>
 </section>
+
+<!-- CONTACT INQUIRY GUIDE -->
+<section aria-labelledby="inquiry-guide-heading">
+
+    <h2 id="inquiry-guide-heading">Contact Inquiry Guide</h2>
+
+    <table>
+        <!-- TABLE CAPTION -->
+        <caption>Examples of inquiries and information visitors can include</caption>
+
+        <!-- TABLE HEADER -->
+        <thead>
+            <tr>
+                <th scope="col">Inquiry Type</th>
+                <th scope="col">Examples</th>
+                <th scope="col">Suggested Information</th>
+            </tr>
+        </thead>
+
+        <!-- TABLE BODY -->
+        <tbody>
+            <tr>
+                <th scope="row">General Inquiry</th>
+                <td>Questions about my work, experience, or portfolio</td>
+                <td>A brief explanation of what you would like to know</td>
+            </tr>
+
+            <tr>
+                <th scope="row">Project Inquiry</th>
+                <td>Video production, broadcasting, or multimedia projects</td>
+                <td>Project goals, requirements, and timeline</td>
+            </tr>
+
+            <tr>
+                <th scope="row">Collaboration</th>
+                <td>Creative partnerships or joint projects</td>
+                <td>Collaboration ideas and interests</td>
+            </tr>
+
+            <tr>
+                <th scope="row">Other</th>
+                <td>Any inquiry that does not fit the categories above</td>
+                <td>A brief explanation of your inquiry</td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+                    <tr>
+                        <td colspan="3">
+                            Please provide as much relevant information
+                            as possible so I can better understand your inquiry.
+                        </td>
+                    </tr>
+                </tfoot>
+
+            </table>
+
+        </section>
+
+    </main>
+
+
+
+
 
 </body>
 </html>
